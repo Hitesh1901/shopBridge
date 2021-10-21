@@ -1,0 +1,21 @@
+<app-top-nav></app-top-nav>
+<section class="shop-page padding-top-100 padding-bottom-100">
+  <div class="container">
+    <div class="shopbridge row"> 
+      <div class="col-md-4" *ngFor="let item of productDetails">
+        <div class="item" (click)="productDetail(item)"> 
+          <div class="item-img"> 
+            <img class="img-1" [src]="item.img" alt="" >
+          </div>
+          <div class="item-name"> 
+            <a>
+              {{item.title}}
+            </a>
+            <p>{{item.shortDescription}}</p>
+          </div>
+          <span class="price">{{item.price | currency:'INR'}}</span>
+         </div>
+      </div>
+    </div>
+  </div>
+</section>

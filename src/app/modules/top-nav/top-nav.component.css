@@ -1,0 +1,121 @@
+header .sticky {
+    width: 100%;
+    -webkit-transition: 0.4s ease-in-out;
+    -moz-transition: 0.4s ease-in-out;
+    -ms-transition: 0.4s ease-in-out;
+    -o-transition: 0.4s ease-in-out;
+    transition: 0.4s ease-in-out;
+}
+header .sticky {
+    background: #c1c1c1;
+    padding: 10px 0;
+    left: 0px;
+    height: 78px;
+}
+header .container {
+    padding: 0px;
+}
+header .logo {
+    float: left;
+    margin-top: 8px;
+    position: relative;
+    font-size: 26px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.shop_cart{
+    cursor: pointer;
+}
+header .navbar {
+    display: inline-block;
+    -webkit-transition: 0.4s ease-in-out;
+    -moz-transition: 0.4s ease-in-out;
+    -ms-transition: 0.4s ease-in-out;
+    -o-transition: 0.4s ease-in-out;
+    transition: 0.4s ease-in-out;
+}
+header .navbar {
+    border: none;
+    margin: 0px;
+    position: static;
+    padding: 0px;
+    border-radius: 0px;
+    text-align: center;
+    float: right;
+}
+.ownmenu {
+    float: left;
+}
+.ownmenu {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.nav-right .navbar-right li {
+    margin: 0px;
+}
+header .navbar li {
+    display: inline-block;
+    float: left;
+    margin: 0 5px;
+    position: relative;
+}
+.ownmenu li {
+}
+.ownmenu li {
+    display: inline-block;
+    float: left;
+}
+header .navbar li a {
+    font-size: 14px;
+    color: #2d3a4b;
+    font-weight: normal;
+    padding: 15px 0px;
+    margin: 0 10px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+.ownmenu a {
+    -o-transition: all .3s linear;
+    -webkit-transition: all .3s linear;
+    -moz-transition: all .3s linear;
+    transition: all .3s linear;
+    outline: none;
+    z-index: 10;
+}
+.nav-right i {
+    font-size: 20px;
+}
+header .user-basket .dropdown-menu {
+    margin-top: 51px;
+    padding: 20px;
+    border: none;
+    border-radius: 0px;
+    min-width: 350px;
+}
+header .user-basket .dropdown-menu li {
+    padding: 0px;
+    margin: 0px;
+    margin-bottom: 20px;
+    display: inline-block;
+    position: relative;
+    width: 100%;
+}
+
+.review_header_count_two{ 
+    width: 16px;
+}
+.review_header_count { 
+    background: #F5A623;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    font-size: 9px;
+    line-height: 16px;
+    box-shadow: 1px 1px 0px #000000;
+    margin-left: -6px;
+    margin-top: -4px;
+    position: absolute;
+    color: #fff;
+    letter-spacing: 0.06px;
+}

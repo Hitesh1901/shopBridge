@@ -1,0 +1,66 @@
+<app-top-nav></app-top-nav>
+<section class="padding-top-100 padding-bottom-100 pages-in chart-page">
+  <div class="container"> 
+    <div class="shopping-cart text-center">
+      <div class="cart-head">
+        <ul class="row">
+          <li class="col-sm-2 text-left">
+            <h6>PRODUCTS</h6>
+          </li>
+          <li class="col-sm-4 text-left">
+            <h6>NAME</h6>
+          </li>
+          <li class="col-sm-2">
+            <h6>PRICE</h6>
+          </li>
+          <li class="col-sm-1">
+            <h6>QTY</h6>
+          </li>
+          <li class="col-sm-2">
+            <h6>TOTAL</h6>
+          </li>
+          <li class="col-sm-1"> </li>
+        </ul>
+      </div>
+      <ul class="row cart-details" *ngFor="let item of totalCartDetails">
+        <li class="col-sm-6">
+          <div class="media"> 
+            <div class="media-left media-middle"> 
+              <img class="media-object" [src]="item.img" alt=""> 
+            </div>
+            <div class="media-body">
+              <div class="position-center-center">
+                <h5>{{item.title}}</h5>
+                <p>{{item.shortDescription}}</p>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="col-sm-2">
+          <div class="position-center-center"> 
+            <span class="price">{{item.price | currency:'INR'}}</span> 
+          </div>
+        </li>
+        <li class="col-sm-1">
+          <div class="position-center-center">
+            <div class="quinty"> 
+              <select class="selectpicker quantity_select" id="exampleFormControlSelect1" [(ngModel)]="item.quantity" (change)="changeTotalQuantity(item.quantity, item)">
+                <option *ngFor="let quantity of quantities" [ngValue]="quantity">{{quantity}}</option>
+              </select>
+            </div>
+          </div>
+        </li>
+        <li class="col-sm-2">
+          <div class="position-center-center"> 
+            <span class="price">
+              {{item.total | currency:'INR'}}
+            </span> 
+          </div>
+        </li>
+        <li class="col-sm-1">
+          <div class="position-center-center"> <i class="fa fa-times-circle-o fa-2x close_product" aria-hidden="true" (click)="deleteProduct(item)"></i> </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>

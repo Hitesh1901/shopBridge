@@ -1,0 +1,23 @@
+<header class="header-1 light-head">
+  <div class="sticky">
+    <div class="container"> 
+      <div class="logo" (click)="toMain()">
+        Shop Bridge
+      </div>
+      <nav class="navbar ownmenu">
+        <div class="collapse navbar-collapse" id="nav-open-btn"></div>
+        <div class="nav-right">
+          <ul class="navbar-right">
+            <li class="dropdown user-basket" (click)="toCheckout()"> 
+              <i class="fa fa-shopping-cart shop_cart" aria-hidden="true">
+                <span class="review_header_count review_header_count_two">
+                  {{toCartProducts.length}}
+                </span>
+              </i> 
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </div>
+</header>

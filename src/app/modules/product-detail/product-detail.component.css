@@ -1,0 +1,239 @@
+.padding-bottom-100 {
+    padding-bottom: 150px !important;
+}
+.padding-top-100 {
+    padding-top: 23px !important;
+}
+section {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    background: #fff;
+}
+.images-slider {
+    position: relative;
+    background: #f7f7f7;
+    z-index: 1;
+}
+.images-slider .slides {
+    display: inline-block;
+    width: 100%;
+}
+.slides, .slides > li, .flex-control-nav, .flex-direction-nav {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.slides > li{
+    width: 100%;
+    float: left;
+    margin-right: -100%;
+    position: relative;
+    opacity: 1;
+    display: block;
+    z-index: 1;
+    text-align: center;
+}
+.quantityli li {
+    list-style: none!important;
+}
+img {
+    -webkit-transition: 0.4s ease-in-out;
+    -moz-transition: 0.4s ease-in-out;
+    -ms-transition: 0.4s ease-in-out;
+    -o-transition: 0.4s ease-in-out;
+    transition: 0.4s ease-in-out;
+    display: inline-block !important;
+}
+.flex-control-thumbs {
+    margin: 0px 0 0;
+    position: relative;
+    overflow: hidden;
+    padding: 10px 50px;
+}
+.flex-control-nav {
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    margin-top: 5px;
+}
+.slides, .slides > li, .flex-control-nav, .flex-direction-nav {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.flex-control-thumbs li {
+    width: 100px;
+    float: left;
+    margin: 0;
+    padding: 0 15px;
+}
+.slides-images{
+    width: 100%;
+              float: left;
+              margin-right: -100%;
+              position: relative;
+              opacity: 1;
+              display: block;
+              z-index: 1;
+}
+.flex-control-nav li {
+    margin: 0 6px;
+    display: inline-block;
+    zoom: 1;
+    *display: inline;
+}
+.flex-control-thumbs img {
+    width: 100%;
+    height: auto;
+    display: block;
+    box-shadow: 0 0 10px rgb(0 0 0 / 10%);
+    opacity: .6;
+    cursor: pointer;
+    -moz-user-select: none;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
+}
+.shop-detail h4 {
+    color: #2d3a4b;
+    letter-spacing: 2px;
+}
+.shop-detail .price {
+    font-size: 18px;
+    font-weight: bold;
+    z-index: 9;
+    display: inline-block;
+    width: 100%;
+    text-align: left;
+    margin-top: 10px;
+    color: #2d3a4b;
+    -webkit-transition: 0.4s ease-in-out;
+    -moz-transition: 0.4s ease-in-out;
+    -ms-transition: 0.4s ease-in-out;
+    -o-transition: 0.4s ease-in-out;
+    transition: 0.4s ease-in-out;
+    margin-bottom: 10px;
+}
+.margin-top-30 {
+    margin-top: 30px !important;
+    margin-left: -43px!important;
+}
+.shop-detail .some-info .btn:hover {
+    background: #ffe115;
+}
+.bootstrap-select:not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn) {
+    width: 110px;
+}
+.bootstrap-select.btn-group:not(.input-group-btn), .bootstrap-select.btn-group[class*="col-"] {
+    float: left;
+    display: inline-block;
+    margin-left: 0;
+}
+.shop-detail .quinty .bootstrap-select .btn {
+    padding: 0px 10px;
+    font-size: 12px;
+}
+.shop-detail .some-info .btn {
+    width: 100%;
+    padding: 0px;
+}
+.shop-detail .quinty .btn {
+    border: 1px solid #2d3a4b;
+}
+.bootstrap-select .btn {
+    padding: 8px 10px;
+    background: none !important;
+    font-size: 16px;
+    color: #2d3a4b;
+    letter-spacing: 0px;
+    line-height: 28px;
+    outline: none !important;
+    text-transform: none;
+    float: left;
+}
+.bootstrap-select > .dropdown-toggle {
+    width: 100%;
+    padding-right: 25px;
+    z-index: 1;
+}
+.bootstrap-select.btn-group .dropdown-toggle .filter-option {
+    color: #2d3a4b;
+    font-size: 12px;
+}
+.bootstrap-select.btn-group .dropdown-toggle .filter-option {
+    display: inline-block;
+    overflow: hidden;
+    width: 100%;
+    text-align: left;
+}
+.bootstrap-select.btn-group .dropdown-toggle .caret {
+    position: absolute;
+    top: 50%;
+    right: 12px;
+    margin-top: -2px;
+    vertical-align: middle;
+}
+.dropdown-menu {
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-top: none;
+    margin-top: 0px;
+    box-shadow: 0 5px 6px rgb(0 0 0 / 10%);
+}
+.bootstrap-select.btn-group .dropdown-menu.inner {
+    position: static;
+    float: none;
+    border: 0;
+    padding: 0;
+    margin: 0;
+    border-radius: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+.bootstrap-select.btn-group .dropdown-menu {
+    min-width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.shop-detail .bootstrap-select.btn-group .dropdown-menu li {
+    margin: 0px !important;
+}
+.bootstrap-select.btn-group .dropdown-menu li {
+    position: relative;
+}
+.bootstrap-select.btn-group .dropdown-menu li a {
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.bootstrap-select.btn-group .dropdown-menu li a span.text {
+    display: inline-block;
+}
+.bootstrap-select.btn-group .dropdown-menu li a span.check-mark {
+    display: none;
+}
+.shop-detail .some-info li {
+    margin-bottom: 20px;
+}
+.btn {
+    border: none;
+    color: #fff;
+    display: inline-block;
+    padding: 5px 50px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 0px;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 46px;
+    background: #2d3a4b;
+    letter-spacing: 1px;
+    position: relative;
+    z-index: 1;
+}
